@@ -19,7 +19,8 @@ h1 {
   margin-bottom: 20px;
 }
 
-.relogio {
+/* Clock container */
+.clock {
   width: 300px;
   height: 300px;
   border: 5px solid #fff;
@@ -27,14 +28,15 @@ h1 {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.riscos {
+/* Clock ticks */
+.ticks {
   width: 100%;
   height: 100%;
   padding-left: 50%;
   padding-top: 50%;
   margin-top: -3px;
 }
-.risco {
+.tick {
   width: 145px;
   height: 5px;
   position: absolute;
@@ -42,42 +44,44 @@ h1 {
   display: flex;
   justify-content: flex-end;
 }
-.risco .ponto {
+.tick .dot {
   width: 15px;
   height: 100%;
   background-color: #fff;
 }
 
-.ponteiros {
+/* Clock hands */
+.hands {
   width: 100%;
   height: 100%;
   padding-left: 50%;
   padding-top: 50%;
   margin-top: -100%;
 }
-.p {
+.hand {
   transform-origin: left;
   transform: rotate(0deg);
   border-radius: 50%;
   position: absolute;
 }
-
-.p_s {
+.second-hand {
   width: 100px;
   height: 3px;
   background-color: #f00;
 }
-.p_m {
+.minute-hand {
   width: 120px;
   height: 7px;
   background-color: #fff;
 }
-.p_h {
+.hour-hand {
   width: 70px;
   height: 10px;
   background-color: #fff;
 }
-.encaixe {
+
+/* Center pin */
+.center-pin {
   width: 20px;
   height: 20px;
   background-color: #fff;
@@ -86,12 +90,15 @@ h1 {
   margin-top: -5px;
   margin-left: -5px;
 }
+
+/* Digital clock */
 .digital {
   color: #fff;
   font-size: 40px;
   margin-top: 20px;
 }
 
+/* Footer */
 footer {
   margin-top: 20px;
   color: #fff;
